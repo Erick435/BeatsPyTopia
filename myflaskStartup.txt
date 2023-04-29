@@ -1,0 +1,31 @@
+How to start a flask server:
+
+===================== Step 1 =============================
+Install our Virtual Environment took: 
+
+Mac: pip3 install pipenv
+
+Windows: pip install pipenv
+
+Linux: pip install pipenv
+
+==================== Step 2 ==============================
+Install Flask into the Virtual Environment
+
+>pipenv install flask flask-bcrypt pymysql cryptography
+
+====================== Step 3 ============================
+Run virtual environment 
+
+>pipenv shell
+
+====================== Step 4 ============================
+Start program 
+
+Windows: python server.py
+
+Linux/Mac: python3 server.py
+
+***should say it's a development server, to check if it's running go to your browser, type:
+
+	localhost:5000
